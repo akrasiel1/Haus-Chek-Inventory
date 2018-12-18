@@ -1,0 +1,105 @@
+body {
+  font-family: "Saira Condensed", sans-serif;
+  position: relative;
+  margin-top: 100px;
+} 
+
+.navbar {
+  box-shadow: 2px 2px 5px #cfb739;
+  background: #fff;
+
+}
+
+  .navbar .nav-item{
+    font-size: 1.3rem;
+    padding-right: 1.3rem; 
+    text-transform: uppercase;
+  }
+
+  .navbar .nav-item .nav-link {
+    color: #cfb739;
+    font-weight: bold;
+  }
+
+#showcase {
+  position: relative;
+  background: url("../img/showcase.jpg");
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#showcase a {
+  margin-top: 30px;
+}
+
+#about, #team, #contact {
+  padding: 140px 0 70px 0;
+}
+
+.handshake {
+  background: url("../img/handshake.jpg");
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accordion{
+  padding: 15px 0 15px 0;
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  margin: 15px;
+  padding-bottom: 1px;
+  cursor: pointer;
+}
+
+.info-header {
+  width: 75%;
+  margin: auto;
+  border-bottom: 2px #ddd solid; }
+
+#team img {
+  margin-top: -50px; }
+#team .card:hover {
+  background: #3292a6;
+  color: #fff; }
+#team .fab {
+  color: #fff; }
+
+@media (max-width: 768px) {
+  body {
+    margin-top: 10px;
+  }
+  
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 3.2rem; }
+    #showcase p {
+      font-size: 0.8em;
+    }  
+.navbar img {
+  height: 35px;
+}
+
+.navbar-toggler-icon{
+  font-size: 15px;
+}
+ul li a {
+  font-size: 13px;
+  text-align: center;
+}
+
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem; }
+
+}
+    
+    
