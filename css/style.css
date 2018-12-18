@@ -81,8 +81,12 @@ body {
     #showcase h1 {
       font-size: 3.2rem; }
     #showcase p {
-      font-size: 0.8em;
+      font-size: 1.2em;
     }  
+    
+  #showcase a {
+    font-size: 0.8em;
+  }  
 .navbar img {
   height: 35px;
 }
