@@ -70,18 +70,10 @@ body {
   margin: auto;
 }
 
-#team {
-  background-color: #bfbfff;
-}
-
 #team img {
   margin-top: -50px; 
 }
 
-#team .card:hover {
-  background: #a0a0a0;
-  color: #fff; 
-}
 
 #team .fab {
   color: #000; }
@@ -94,9 +86,9 @@ body {
   #showcase, #services #handshake {
     min-height: 500px; }
     #showcase h1, #services #handshake h1 {
-      font-size: 3.2rem; }
+      font-size: 2.5rem; }
     #showcase p, #services #handshake p {
-      font-size: 1.2em;
+      font-size: 0.9em;
     }  
     
   #showcase a {
